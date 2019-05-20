@@ -1,0 +1,268 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	text-align: justify;
+    color: black;
+}
+.container
+
+{
+	width: 1080px;
+	margin: auto;	
+}
+
+header
+{
+    text-align: center;
+}
+
+#header-top
+{
+    font-size:20px;
+}
+
+#bottom
+{
+	background-color: #aaa;
+	color: #fff;
+	text-decoration: none;
+	overflow: hidden;
+	font-size:18px;
+    font-weight: 700;
+	
+}
+
+.brand-img
+{
+	width: 200px;
+	margin: auto;
+	display: block;
+}
+
+#top-menu
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	
+}
+
+#top-menu > li
+{
+	display: inline-block;
+}
+
+#top-menu > li > a
+{
+	display: inline-block;
+	padding: 16px 20px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #3A1515;
+	text-decoration: none;
+}
+
+#top-menu > li > a:hover
+{
+	display: inline-block;
+	padding: 16px 20px;
+	background-color: #aaa;
+	color:#fff;
+	transition-duration:0.1s;
+}
+
+#top-menu > li > .top-submenu
+{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+	text-decoration: none;
+		transition-duration:1.2s;
+	visibility: hidden;
+	transition:100ms;
+}
+
+#top-menu > li:hover > .top-submenu
+{
+	display: inline-block;
+	background-color: #ccc;
+	color: #fff;
+	transition-duration:0.2s;
+	visibility: visible;
+}
+
+.top-submenu
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	position:  absolute;
+	display: none;
+	background-color: #ccc;
+}
+
+#ban
+{
+    text-decoration: none;
+}
+
+.top-submenu> li > a
+{
+	display: block;
+	padding: 16px 20px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #3A1515;
+	text-decoration: none;
+	border-top: solid 1px #3A1515;
+
+}
+
+.top-submenu > li > a:hover
+{
+	background-color: #aaa;
+	color:#fff;
+	transition: 0.1s;
+	
+}
+
+.top-submenu > li > a
+{
+	text-decoration: none;
+}
+
+nav
+{
+	background-color: #ccc;
+}
+
+
+#top-menu li:hover >ul
+{
+	display: block;
+}
+
+#banner
+{
+	background-image: url(img/matura1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+	padding: 120px 40px;
+}
+
+#banner h1
+{
+	margin: 0;
+	text-align: center;
+	font-size: 48px;
+	color: #fff;
+	background-color:rgba(0,0,0,0.7);
+	padding: 12px;
+	text-shadow: 1px 1px 0px #000;
+}
+
+.footer-box
+{
+	padding: 32px 0;
+	width: 50%;
+	float:left;	
+}
+
+.text-right
+{
+	text-align: right;
+}
+
+#bottom a{
+	color:#fff;
+}
+
+#bottom a:hover
+{
+	color:#F79a26;
+}
+
+.photo
+{
+    width: 400px;
+    padding: 0 30px 20px 0px;
+    float: left;
+}
+
+.nag
+{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+.title
+{
+    text-align: right;
+}
+.title:hover
+{
+	cursor: pointer;
+}
+
+.desc
+{
+    display: none;
+}
+
+
+
+.title1
+{
+    text-align: right;
+}
+.title1:hover
+{
+	cursor: pointer;
+}
+
+.desc1
+{
+    display: none;
+}
+
+#faq
+{
+    margin: auto;
+    width:1080px;
+}
+
+#for
+{
+    margin: auto;
+    width:1080px;
+    text-align: center;
+}
+
+#year > li
+{
+    text-decoration: none;
+    color: black;
+}
+
+#mature
+{
+    text-align: center;
+}
+
+a
+{
+color:black;
+}
+
+.formularz
+{
+    margin-bottom: 5px;
+}
